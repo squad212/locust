@@ -1,0 +1,52 @@
+#body{
+	height:85%;width:100%;
+}
+
+}
+#main{
+	height:100%;width:100%;background:green
+}
+#header{
+	height:10%;width:100%;background:#5858FA
+}
+#header:hover{
+	background:red
+}
+#filter
+{
+	float:left;height:100%;width:10%;background:#819FF7
+}
+#footer{
+	height:5%;width:100%;background:black
+}
+#cart{
+	float:left;height:100%;width:15%;background:beige
+}
+#products{
+	float:left;height:100%;width:80%;background:#CED8F6
+}
+.prodDis{
+	float:left;height:100%;width:90%;background:#CED8F6
+}
+#p{
+	float:left;
+	padding:10px;
+}
+#csstest{
+	display:block;
+	padding-right:10px;
+	height:50%;
+	width:50%;
+	font-size:20;
+	color:red;
+	font-family:arial;
+	text-align:left;
+	border-radius :10px;
+	transform:rotate(360deg);
+	transition-duration: 15s;
+	webkit-transform:rotate(360deg);
+}
+#header1:hover{
+	transform:rotate(-20deg);
+	transition-duration: 15s;
+}
